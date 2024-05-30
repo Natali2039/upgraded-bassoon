@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(141, 203, 197);
+}
+
+img{
+    width: 700px;
+    height: 600px;
+    
+}
+a{
+    
+border: 5px double rgb(236, 82, 241);
+
+}
+
+ul{
+    margin-top: 110px;
+}
+
+li{
+    margin-top: 15px;
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+.qq{
+    text-align: center;
+    height: 600px;
+}
+
+@media (max-width:500px){
+    nav{
+       
+    }
+
+    body{
+        backgrounddolor: rgb(157, 214, 209);
+        font-family: Courier New;
+        font-size: 5px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        text-align: center;
+    }
+}
+
+footer{
+    text-align: center;
+    font-family: Monotype Corsiva;
+    font-size: 15px;
+}
+
+@media (min-width:501px) and (max-width:1000px){
+    nav{
+        
+    }
+
+    body{
+        background-color: rgb(135, 196, 191);
+        font-family: Monotype Corsiva;
+        font-size: 15xp;
+    }
+    img{
+        width: 400px;
+        height: 400px;
+        text-align: center;
+    }
+}
+

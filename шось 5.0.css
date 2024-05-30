@@ -1,0 +1,59 @@
+.a{
+    width: 33%;
+    text-align: left;
+    margin-left: 500px;
+}
+
+body{
+    background-color: rgb(179, 228, 178)
+}
+
+footer{
+    text-align: center;
+    font-family: Monotype Corsiva;
+    font-size: 15px;
+}
+
+a{
+    border: 5px double rgb(236, 82, 241);
+}
+
+
+@media (max-width:500px){
+    nav{
+        
+    }
+
+    body{
+        background-color: rgb(157, 214, 209);
+        font-family: Courier New;
+        font-size: 5px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        text-align: center;
+    }
+.a {
+    margin-left: 0px;
+}
+
+}
+
+
+@media (min-width:501px) and (max-width:1000px){
+    nav{
+        
+    }
+
+    body{
+        background-color: rgb(176, 231, 201);
+        font-family: Monotype Corsiva;
+        font-size: 15xp;
+    }
+    img{
+        width: 400px;
+        height: 400px;
+        text-align: center;
+    }
+}
